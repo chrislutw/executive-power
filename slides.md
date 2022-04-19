@@ -24,7 +24,7 @@ download: true
 
 # Welcome to Slidev
 
-Presentation slides for developers
+Presentation slides for developerss
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="rounded cursor-pointer py-1 px-2" hover="bg-white bg-opacity-10">
