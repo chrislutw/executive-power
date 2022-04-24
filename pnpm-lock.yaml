@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@iconify-json/emojione': ^1.1.1
   '@slidev/cli': ^0.30.3
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
@@ -12,6 +13,7 @@ dependencies:
   '@slidev/theme-seriph': 0.21.2
 
 devDependencies:
+  '@iconify-json/emojione': 1.1.1
   playwright-chromium: 1.21.1
 
 packages:
@@ -49,6 +51,12 @@ packages:
       '@iconify/types': 1.1.0
     dev: false
 
+  /@iconify-json/emojione/1.1.1:
+    resolution: {integrity: sha512-cO097r6ZhX3E1KhWjkIs4urzmKrbLKxt6Z0+t/DPT1om0FJONYxbdDWWXZ4VsDUPn0nnCwlY6VjX97EcxbUE8g==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
   /@iconify-json/ph/1.1.1:
     resolution: {integrity: sha512-sIHTY+c1F8x29BM49IqoccJ3T8mvVXPcrE4WOpJ3GsBaip2YqFJRYU60rw64UL6GEI13vWSD7NsZKq8ytTO87g==}
     dependencies:
@@ -57,7 +65,6 @@ packages:
 
   /@iconify/types/1.1.0:
     resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==}
-    dev: false
 
   /@iconify/utils/1.0.32:
     resolution: {integrity: sha512-m+rnw7qKHq/XF7DAi4BcFoEAcXBfqqMgQJh8brGEHeqE/RUvgDMjmxsHgWnVpFsG+VmjGyAiI7nwXdliCwEU0Q==}
