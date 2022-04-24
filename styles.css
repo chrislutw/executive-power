@@ -1,0 +1,16 @@
+:root {
+}
+html:not(.dark) {
+  --slidev-theme-primary: #3359ac;
+  #slide-content {
+    @apply bg-blue-200 text-dark-50;
+  }
+}
+
+html.dark {
+  --slidev-theme-primary: #6797ff;
+
+  #slide-content {
+    @apply bg-blue-900 text-light-50;
+  }
+}
