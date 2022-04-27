@@ -65,21 +65,29 @@ class: text-center
 
 想要做好一件事要用借助什麼方法
 
----
-class: 'text-center'
+<div class="h-2/3 text-center grid grid-cols-2 grid-rows-3 justify-center items-center">
+  <div v-click class="text-4xl">PDCA</div>
+  <div v-click class="text-4xl">Scrum</div>
+  <div v-click class="text-4xl">KPI</div>
+  <div v-click class="text-4xl">OKR</div>
+  <div v-click class="text-4xl col-span-2">Prototype</div>
+</div>
+
 ---
 
 # 手段
 
-<div class="border flex divide-x-4 rounded-3xl h-[60%] mt-16 items-center justify-center">
+當方法有了，推進時為什麼還是覺得卡卡的呢？
+
+<div v-click class="border flex divide-x-4 rounded-3xl h-[60%] mt-16 text-center items-center justify-center">
   <div class="w-1/2">
 
-  ## 單兵作戰
+  <h2><carbon:user class="inline" />單兵作戰</h2>
 
   </div>
   <div class="w-1/2">
 
-  ## 多人協作
+  <h2><carbon:user-multiple class="inline" />多人協作</h2>
 
   </div>
 </div>
@@ -87,37 +95,152 @@ class: 'text-center'
 
 
 ---
+hideInToc: true
+---
 
-## 單兵作戰
+# 單兵作戰
+
+不管是你是獨善其身或是孤狼，都需要
+
+<div v-click="1" class="border flex divide-x-4 rounded-3xl h-[60%] mt-16 text-center items-center justify-center">
+  <div v-click="1" class="w-1/2">
+    <h2>
+      <carbon:timer class="inline" />自制力
+    </h2>
+  </div>
+  <div v-click="2" class="w-1/2">
+    <h2>
+      <carbon:cognitive class="inline" />知識
+    </h2>
+  </div>
+  <div v-click="3" class="w-1/2">
+    <h2>
+      <carbon:machine-learning-model class="inline" />學習成長
+    </h2>
+  </div>
+  <div v-click="4" class="w-1/2">
+    <h2>
+      <simple-icons:gunicorn class="inline" />突破困境
+    </h2>
+  </div>
+</div>
+
+---
+hideInToc: true
+---
+
+# 多人協作
+
+自已一人能做多少事呢？ 都說人多好辦事，但怎麼叫人跟你一起做事
+
+<div v-click="1" class="border flex divide-x-4 rounded-3xl h-[60%] mt-16 text-center items-center justify-center">
+  <div v-click="1" class="w-1/2">
+    <h2>
+      <ps:google-talk class="inline" />說服
+    </h2>
+  </div>
+  <div v-click="2" class="w-1/2">
+    <h2>
+      <emojione:money-bag class="inline" />利誘
+    </h2>
+  </div>
+  <div v-click="3" class="w-1/2">
+    <h2>
+      <openmoji:authority-building class="h-10 w-10 inline" />權勢
+    </h2>
+  </div>
+</div>
+
 
 
 ---
-
-## 多人協作
-
-
-
+layout: quote
+class: text-center
 ---
 
 # 案例
 
+以我過往的成長經驗來檢討
+
 ---
 
-## 商用時期第一次導入 Vue
+## 第一次導入 Vue
+
+剛進公司第2年，商用時期
+
+- 單兵
+  - 自制力： ★
+  - 知識： ★
+  - 學習成長： ★★ 外訓+自學
+  - 突破困境： ★ 進度落後
+- 協作
+  - 說服： ★
+  - 利誘： ★
+  - 權勢： ★★ 前端知識獨佔優勢
+
+---
+
+## 區塊鏈
+
+<p><span class="opacity-50 text-gray-600">剛進公司第2年，商用時期</span> → 線上第1.5年</p>
+
+- 單兵
+  - 自制力： ★★★★ 高工時投入
+  - 知識： ★★
+  - 學習成長： ★★
+  - 突破困境： ★★★ 未知領域
+- 協作
+  - 說服： ★★ 前端人員可獨立完成全端
+  - 利誘： ★★ 減少製作工具
+  - 權勢： ★
 
 ---
 
 ## 金銀島改版
 
+<p><span class="opacity-50 text-gray-600">剛進公司第2年，商用時期 → 線上第1.5年</span> → 線上第2.5年</p>
+
+- 單兵
+  - 自制力： ★★★★
+  - 知識： ★★★
+  - 學習成長： ★★★
+  - 突破困境： ★★★ 大量頁面靈活運用共通元件
+- 協作
+  - 說服： ★★★ 漸漸地會講人話
+  - 利誘： ★★ 一個vue檔全搞定不需要再東摳西摳
+  - 權勢： ★
+
 ---
+
 ## 救世英雄 NFT 專案
 
----
-## 前端小組成立
+<p><span class="opacity-50 text-gray-600">剛進公司第2年，商用時期 → 線上第1.5年 → 線上第2.5年</span> → 線上第3年</p>
+
+- 單兵
+  - 自制力： ★★ 身體不適
+  - 知識： ★★★★ 累積的知識，讓產能依舊
+  - 學習成長： ★★★
+  - 突破困境： ★★★
+- 協作
+  - 說服： ★★★ 讓美術能用熟悉工具，快速生成示意產出
+  - 利誘： ★★★ 減少美術工時
+  - 權勢： ★
 
 ---
 
-## 後端工具 Admin2
+## 規劃成立前端小組
+
+<p><span class="opacity-50 text-gray-600">剛進公司第2年，商用時期 → 線上第1.5年 → 線上第2.5年 → 線上第3年</span> → 線上第3.5年</p>
+
+- 單兵
+  - 自制力： ★★★ 逐漸康復
+  - 知識： ★★★★
+  - 學習成長： ★★★
+  - 突破困境： ★★★ 數據收集
+- 協作
+  - 說服： ★★★★ 數據輔佐
+  - 利誘： ★★★ 專業分工更高效
+  - 權勢： ★
 
 ---
 layout: center

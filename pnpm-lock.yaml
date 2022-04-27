@@ -2,6 +2,9 @@ lockfileVersion: 5.3
 
 specifiers:
   '@iconify-json/emojione': ^1.1.1
+  '@iconify-json/openmoji': ^1.1.4
+  '@iconify-json/ps': ^1.1.1
+  '@iconify-json/simple-icons': ^1.1.9
   '@slidev/cli': ^0.30.3
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
@@ -14,6 +17,9 @@ dependencies:
 
 devDependencies:
   '@iconify-json/emojione': 1.1.1
+  '@iconify-json/openmoji': 1.1.4
+  '@iconify-json/ps': 1.1.1
+  '@iconify-json/simple-icons': 1.1.9
   playwright-chromium: 1.21.1
 
 packages:
@@ -57,11 +63,29 @@ packages:
       '@iconify/types': 1.1.0
     dev: true
 
+  /@iconify-json/openmoji/1.1.4:
+    resolution: {integrity: sha512-Y0QIXuoT7lvaMlTy390CLGvBH/wNfLeO3fh13t/vxQWoZstbDQ2Zfs1p9yMOmgsNHNievMn/alzokWxg9ru9wQ==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
   /@iconify-json/ph/1.1.1:
     resolution: {integrity: sha512-sIHTY+c1F8x29BM49IqoccJ3T8mvVXPcrE4WOpJ3GsBaip2YqFJRYU60rw64UL6GEI13vWSD7NsZKq8ytTO87g==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: false
+
+  /@iconify-json/ps/1.1.1:
+    resolution: {integrity: sha512-efQYAsrf+zb3KdiMjnxtlBRARmMyxEzvjlAR/A7w/mcC9p0DBn9fSol7FTw9pQREj2Hn2uqoTCT9MpzCydIAXQ==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
+
+  /@iconify-json/simple-icons/1.1.9:
+    resolution: {integrity: sha512-KyMk0OeVes91KVLOEmGapI8b7DaTd7Cbjo4m/GwBSgRDX5bt6xUZz5tQrpd3qUMFSWxyeiwOJc0pmOInGUyTVg==}
+    dependencies:
+      '@iconify/types': 1.1.0
+    dev: true
 
   /@iconify/types/1.1.0:
     resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==}

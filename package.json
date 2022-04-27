@@ -13,6 +13,9 @@
   "name": "executive-power",
   "devDependencies": {
     "@iconify-json/emojione": "^1.1.1",
+    "@iconify-json/openmoji": "^1.1.4",
+    "@iconify-json/ps": "^1.1.1",
+    "@iconify-json/simple-icons": "^1.1.9",
     "playwright-chromium": "^1.21.1"
   }
 }
